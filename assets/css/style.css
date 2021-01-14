@@ -1,0 +1,30 @@
+body{
+    background-color:#242424 !important;
+}
+
+button{
+    transition:0.5s ease;
+}
+button:hover{
+    transform: translate rotateY(360deg);
+}
+button:focus{
+    box-shadow:none !important;
+}
+
+button:active{
+    transform: scale(1.2);
+    transition:0.2s ease;
+}
+
+img{
+    max-height:350px !important;
+}
+
+#newDoggo{
+    color:#fff;
+    background-color:#de7ac3;
+}
+h2{
+    color:#fff;
+}
